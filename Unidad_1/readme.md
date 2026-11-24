@@ -52,8 +52,8 @@ Ejemplo con los valores actuales: `environment-project-1-dev-raw`
 | `variables.tf` | Establecer variables y llevar control de valores desde allí |
 | `terraform.tfvars` | Definición de Valores en la variables |
 | `main.tf` | Configuración de la relacion de AWS con Terraform |
-| `outputs.tf` | Salidas que se quieran mostrar acordes al mani.tf |
-| `.gitignore` | Ignora los archivos que crea terraform mas las varialbes para que no se muestren a todos |
+| `outputs.tf` | Salidas que se quieran mostrar acordes al main.tf |
+| `.gitignore` | Ignora los archivos que crea terraform para que no se muestren a todos |
 
 El motivo de separar los archivos de esta forma es poder tener las configuraciones establecidas, por ejemplo en `provider.tf`, para eventuales proyectos o configuraciones, y que sea fácilmente replicable y escalable.
 
